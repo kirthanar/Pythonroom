@@ -2,14 +2,13 @@
 
 import turtle
 
-length = 100
+length = 50
 angle = 36
-numbers = [1,2,3,4,5]
-count = 0
+numbers = [1,2,3,4,5,6,7,8,9,10]
+
 
 kirthana = turtle.Turtle()
 
-while count < 11:
+for number in numbers:
 	kirthana.forward(length)
 	kirthana.left(angle)
-	count = count + 1
