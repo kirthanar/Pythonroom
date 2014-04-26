@@ -2,9 +2,9 @@
 
 import turtle
 
-length = 100
-angle = 170
-numbers= range(0,100)
+length = 70
+angle = 50
+numbers= range(0,50)
 #colors = ["red", "blue", "green", "yellow"]
 
 kirthana = turtle.Turtle()
