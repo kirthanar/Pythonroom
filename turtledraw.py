@@ -2,13 +2,14 @@
 
 import turtle
 
-length = 50
-angle = 36
-numbers = [1,2,3,4,5,6,7,8,9,10]
-
+length = 100
+angle = 90
+#numbers= range(0,6)
+colors = ["red", "blue", "green", "yellow"]
 
 kirthana = turtle.Turtle()
 
-for number in numbers:
+for color in colors:
+	kirthana.color(color)
 	kirthana.forward(length)
 	kirthana.left(angle)
